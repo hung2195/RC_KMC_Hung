@@ -1,0 +1,31 @@
+.header{
+	display: flex;
+	justify-content: space-between;
+	background: rgba(18, 166, 235, 0.28);
+	text-shadow: rgb(0, 68, 99) 0px 0px 8px;
+	// padding:20px;
+	.logo{
+		padding:15px 0 15px 19px;
+		img{
+			width: 100%;
+		}
+	}
+	.nav_bar{
+		padding-top: 39px;
+		ul{
+		display: flex;
+
+			li{
+				padding-right: 25px;
+
+			}
+			a {
+				color: #ffffff;
+
+			}
+		}
+	}
+}
+.slick-dots li button:before{
+	font-size: 50px;
+}

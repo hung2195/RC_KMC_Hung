@@ -4,31 +4,52 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
-	<link rel="stylesheet" href="">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<header id="header" class="">
+	<header id="header" class="header">
 		<div class="logo">
 			<img src="img/logo.png" alt="">
 		</div>
 		<nav class="nav_bar">
 		    <ul>
-		        <li><a href="#">KMCの汚泥処理</a></li><!--
-		     --><li><a href="#">処理工程</a></li><!--
-		     --><li><a href="#">再生土への取り組み</a></li><!--
-		     --><li><a href="#">KMCについて</a></li>
-		     --><li><a href="#">お問い合わせ</a></li>
+		     <li><a href="#">KMCの汚泥処理</a></li>
+		     <li><a href="#">処理工程</a></li>
+		     <li><a href="#">再生土への取り組み</a></li>
+		     <li><a href="#">KMCについて</a></li>
+		     <li><a href="#">お問い合わせ</a></li>
 		    </ul>
 		</nav>
 	</header>
 	<!-- /header -->
 	<div class="mainBody">
-		
+		<div class="slider">
+		  <div><img src="img/bgSlider02.jpg" alt=""></div>
+		  <div><img src="img/bgSlider03.jpg" alt=""></div>
+		  <div><img src="img/bgSlider04.jpg" alt=""></div>
+		  <div><img src="img/bgSlider05.jpg" alt=""></div>				
+		</div>
 	</div>
 	<!-- /mainBody -->
 	<footer>
 		
 	</footer>
 	<!-- /footer -->
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<!-- <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script> -->
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+	  $('.slider').slick({
+	    	dots: true,
+	    	autoplay: true,
+	    	speed: 500,
+	    	fade: true,
+			cssEase: 'linear'
+		  });
+		});
+	</script>
 </body>
 </html>

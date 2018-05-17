@@ -100,4 +100,31 @@ img {
 
 /*--------/reset-----------*/
 /*--------/module-----------*/
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background: rgba(18, 166, 235, 0.28);
+  text-shadow: #004463 0px 0px 8px; }
+  .header .logo {
+    padding: 15px 0 15px 19px; }
+    .header .logo img {
+      width: 100%; }
+  .header .nav_bar {
+    padding-top: 39px; }
+    .header .nav_bar ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .header .nav_bar ul li {
+        padding-right: 25px; }
+      .header .nav_bar ul a {
+        color: #ffffff; }
+
+.slick-dots li button:before {
+  font-size: 50px; }
+
 /*--------/style-----------*/
