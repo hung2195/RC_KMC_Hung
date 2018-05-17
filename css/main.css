@@ -101,6 +101,9 @@ img {
 /*--------/reset-----------*/
 /*--------/module-----------*/
 .header {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
